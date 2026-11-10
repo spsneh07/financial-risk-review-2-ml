@@ -1,0 +1,10 @@
+Aspect,HMM (3 Gaussian states),LDS (Kalman)
+Latent state,"Discrete z_t in {Bull, Bear, High-Vol}",Continuous x_t in R (drift or log-variance)
+Interpretability,Named regimes + transition probabilities,No labels; a smooth continuous signal
+Abrupt transitions,Yes: jump between states in one step,No: Gaussian random-walk moves gradually
+Smooth trends,Only as a mixture of a few levels,Yes: optimal linear-Gaussian smoothing
+Volatility clustering,Yes: high-variance state,Only LDS-Vol (via log r^2 transform)
+Test log-lik / day,-1.4223,Trend -1.4783 / Vol* -1.4532
+Corr. with realised vol,0.734,0.781 (LDS-Vol)
+Fit time (s),2.2 (EM x4),13.4 (both models)
+Key assumptions,"Markov switching, Gaussian emissions, constant params","Linear dynamics, Gaussian noise, constant Q and R"

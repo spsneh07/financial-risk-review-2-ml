@@ -1,0 +1,4 @@
+,Members,Most distinctive feature (mean z),Ann. return %,Ann. vol %,Skew,Ex. kurtosis,VaR95 %,CVaR95 %,Max DD %
+0: Low risk,"RELIANCE, HDFCBANK, ICICIBANK, HINDUNILVR, SUNPHARMA, MARUTI, BHARTIARTL",skewness (+0.68),7.339,21.291,0.027,3.507,2.034,3.015,26.785
+1: Moderate risk,"ITC, LT",skewness (-1.55),9.791,22.59,-0.617,6.483,2.053,3.278,40.001
+2: High risk,"TCS, INFY, TATASTEEL",VaR_95 (+1.34),-4.915,26.396,-0.324,3.875,2.561,3.983,49.266

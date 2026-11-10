@@ -1,0 +1,5 @@
+method,mean_ARI,std_ARI,min_ARI,n_runs
+"K-means (random init, n_init=1)",0.4708691211013977,0.23850240653204086,0.011235955056179775,20
+"K-means (k-means++, n_init=20)",1.0,0.0,1.0,20
+"GMM (random init, n_init=1)",0.7588477376443944,0.2189439309404742,0.3408239700374532,20
+Hierarchical (Ward),1.0,0.0,1.0,2

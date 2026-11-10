@@ -1,0 +1,5 @@
+,Members,Most distinctive feature (mean z),Ann. return %,Ann. vol %,Skew,Ex. kurtosis,VaR95 %,CVaR95 %,Max DD %
+0: Tier 0,TATASTEEL,kurtosis (+3.11),-2.228,25.3,0.766,12.281,2.513,3.473,43.832
+1: Tier 1,"HDFCBANK, HINDUNILVR, MARUTI, BHARTIARTL",max_drawdown (-1.19),5.0,25.755,0.086,2.031,2.651,3.613,37.737
+2: Tier 2,ITC,skewness (-2.21),-20.012,26.257,-0.639,3.962,2.68,3.942,70.815
+3: Tier 3,"RELIANCE, TCS, INFY, ICICIBANK, SUNPHARMA, LT",volatility (+0.92),-10.442,36.314,0.152,2.08,3.685,5.058,66.044

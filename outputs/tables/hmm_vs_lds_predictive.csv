@@ -1,0 +1,5 @@
+model,test_loglik_per_day,latent_state,exact_likelihood
+i.i.d. Gaussian (baseline),-1.3034375657872597,none,True
+"LDS-Trend (Kalman, continuous drift)",-1.303598111222001,continuous,True
+"LDS-Vol (Kalman QML, plug-in density)*",-1.2423133405549223,continuous,False
+"HMM-3 (forward filter, discrete)",-1.1744359541449132,discrete,True
